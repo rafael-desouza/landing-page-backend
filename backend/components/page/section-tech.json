@@ -2,7 +2,8 @@
   "collectionName": "components_page_section_teches",
   "info": {
     "name": "sectionTech",
-    "icon": "keyboard"
+    "icon": "keyboard",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,7 +14,10 @@
     "techIcons": {
       "type": "component",
       "repeatable": true,
-      "component": "page.tecj-icons"
+      "component": "page.tecj-icons",
+      "max": 10,
+      "min": 5,
+      "required": true
     }
   }
 }

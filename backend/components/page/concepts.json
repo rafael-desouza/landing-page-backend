@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_concepts",
+  "info": {
+    "name": "concepts",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 18,
+      "minLength": 6
+    }
+  }
+}
